@@ -22,15 +22,15 @@ Audio samples and implementations are available at "scpark20.github.io/KimchiSpe
 
 Text: Once held by Hobson and Dewey, now carried by Mother Eddy and Brother Dowie.
 
-| **GT** | **Tacoton2** | **FastSpeech** | **FastSpeech2** | **KimchiSpeech-W** | **KimchiSpeech-S** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GT** | **Tacoton2** | **FastSpeech** | **FastSpeech2** | 
 | <audio src="wavs/GT/inference_0_GT.wav" controls preload></audio> 
 | <audio src="wavs/TACO2/inference_0_TACO2.wav" controls preload></audio> 
-| <audio src="wavs/FS/inference_0_FS.wav" controls preload></audio> |
+| <audio src="wavs/FS/inference_0_FS.wav" controls preload></audio>
 | <audio src="wavs/FS2/inference_0_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** | --- |
 | <audio src="wavs/KS/inference_0_S5G1.wav" controls preload></audio> |
 | <audio src="wavs/KW/inference_0_W4G1.wav" controls preload></audio> |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 
 Text: If the child gives the effect another turn of the screw, what do you say to TWO children?
 
