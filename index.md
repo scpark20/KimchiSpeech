@@ -2,9 +2,11 @@
 
 <center> Soochul Park </center>
 
+<center> MODULABS, Seoul, Korea </center>
+
 <center> scpark20@gmail.com </center>
 
-<center> MODULABS </center>
+
 
 ## Abstract
 In this research, we propose KimchiSpeech. 
