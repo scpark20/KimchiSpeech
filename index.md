@@ -1,4 +1,4 @@
-# <center> KimchiSpeech: Faster, Lighter and More Controllable TTS\linebreak with Hierachical VAE and STT-aided Gaussian Attention </center>
+# <center> KimchiSpeech: Faster, Lighter and More Controllable TTS with Hierachical VAE and STT-aided Gaussian Attention </center>
 
 <center> Soochul Park </center>
 
