@@ -16,7 +16,7 @@ Since STT-aided attention works independently of TTS model, attention alignment 
 The speed of the speech can be controlled more flexibly by soft attention using Gaussian distribution.
 We propose two configurations of the model.
 One is a fast version, which produces outputs at 600 times faster than real time.
-The other is a light version, which is only 6MB in size.
+The other is a light version, which has only 3.3 million parameters.
 At the same time, the MOS results show that the outputs are of state-of-the-art quality.
 Audio samples and implementations are available at "scpark20.github.io/KimchiSpeech".
 <audio src="wavs/kimchi_abstract.wav" controls preload></audio>
