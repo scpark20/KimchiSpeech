@@ -1,7 +1,9 @@
 # <center> KimchiSpeech: Faster, Lighter and More Controllable TTS\linebreak with Hierachical VAE and STT-aided Gaussian Attention </center>
 
 <center> Soochul Park </center>
+
 <center> scpark20@gmail.com </center>
+
 <center> MODULABS </center>
 
 ## Abstract
