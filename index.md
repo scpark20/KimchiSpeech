@@ -1,6 +1,12 @@
-# <center> KimchiSpeech: Faster, Lighter and More Controllable TTS\linebreak with Hierachical VAE and STT-aided Gaussian Attention </center>
+# <center> KimchiSpeech: Faster, Lighter and More Controllable TTS with Hierachical VAE and STT-aided Gaussian Attention </center>
 
 <center> Soochul Park </center>
+
+<center> MODULABS, Seoul, Korea </center>
+
+<center> scpark20@gmail.com </center>
+
+
 
 ## Abstract
 In this research, we propose KimchiSpeech. 
@@ -16,76 +22,67 @@ Audio samples and implementations are available at "scpark20.github.io/KimchiSpe
 
 ## English TTS
 
-Text: Once held by Hobson and Dewey, now carried by Mother Eddy and Brother Dowie.
+Text1: The Middle Ages brought calligraphy to perfection, and it was natural therefore.
 
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/121_121726_000025_000001.wav" controls preload></audio> | <audio src="wavs/en/bvae/121_121726_000025_000001.wav" controls preload></audio> | <audio src="wavs/en/vara/121_121726_000025_000001.wav" controls preload></audio> |
-| --- | --- | --- |
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_0_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_0_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_0_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_0_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_0_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_0_W4G1.wav" controls preload></audio> |
+| --- | --- |
 
-Text: If the child gives the effect another turn of the screw, what do you say to TWO children?
+Text2: that the forms of printed letters should follow more or less closely those of the written character, and they followed them very closely.
 
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/121_127105_000008_000002.wav" controls preload></audio> | <audio src="wavs/en/bvae/121_127105_000008_000002.wav" controls preload></audio> | <audio src="wavs/en/vara/121_127105_000008_000002.wav" controls preload></audio> |
-| --- | --- | --- |
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_1_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_1_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_1_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_1_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_1_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_1_W4G1.wav" controls preload></audio> |
+| --- | --- |
 
-Text: But Polly couldn't speak; and if Jasper hadn't caught her just in time, she would have tumbled over backward from the stool, Phronsie and all!
+Text3: especially as regards the lower case letters; and type very similar was used during the next fifteen or twenty years not only by Schoeffer,
 
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/237_126133_000023_000000.wav" controls preload></audio> | <audio src="wavs/en/bvae/237_126133_000023_000000.wav" controls preload></audio> | <audio src="wavs/en/vara/237_126133_000023_000000.wav" controls preload></audio> |
-| --- | --- | --- |
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_2_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_2_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_2_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_2_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_2_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_2_W4G1.wav" controls preload></audio> |
+| --- | --- |
 
+Text4: a very few years saw the birth of Roman character not only in Italy, but in Germany and France.
 
-Text: "But," I remarked, "since we have followed the road that Saknussemm has shown us."
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_3_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_3_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_3_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_3_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_3_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_3_W4G1.wav" controls preload></audio> |
+| --- | --- |
 
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/260_123286_000016_000000.wav" controls preload></audio> | <audio src="wavs/en/bvae/260_123286_000016_000000.wav" controls preload></audio> | <audio src="wavs/en/vara/260_123286_000016_000000.wav" controls preload></audio> |
-| --- | --- | --- |
+Text5: and used an exceedingly beautiful type, which is indeed to look at a transition between Gothic and Roman,
 
-Text: Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields.
-
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/260_123288_000006_000002.wav" controls preload></audio> | <audio src="wavs/en/bvae/260_123288_000006_000002.wav" controls preload></audio> | <audio src="wavs/en/vara/260_123288_000006_000002.wav" controls preload></audio> |
-| --- | --- | --- |
-
-Text: We were on the edge of the Casanova churchyard.
-
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/533_1066_000015_000004.wav" controls preload></audio> | <audio src="wavs/en/bvae/533_1066_000015_000004.wav" controls preload></audio> | <audio src="wavs/en/vara/533_1066_000015_000004.wav" controls preload></audio> |
-| --- | --- | --- |
-
-
-Text: O life of this our spring! why fades the lotus of the water? Why fade these children of the spring?
-
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/908_157963_000010_000000.wav" controls preload></audio> | <audio src="wavs/en/bvae/908_157963_000010_000000.wav" controls preload></audio> | <audio src="wavs/en/vara/908_157963_000010_000000.wav" controls preload></audio> |
-| --- | --- | --- |
-
-Text: A ring of amethyst I could not wear here, plainer to my sight, Than that first kiss.
-
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/908_31957_000017_000001.wav" controls preload></audio> | <audio src="wavs/en/bvae/908_31957_000017_000001.wav" controls preload></audio> | <audio src="wavs/en/vara/908_31957_000017_000001.wav" controls preload></audio> |
-| --- | --- | --- |
-
-Text: For a full hour he had paced up and down, waiting: but he could wait no longer.
-
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/1089_134691_000002_000002.wav" controls preload></audio> | <audio src="wavs/en/bvae/1089_134691_000002_000002.wav" controls preload></audio> | <audio src="wavs/en/vara/1089_134691_000002_000002.wav" controls preload></audio> |
-| --- | --- | --- |
-
-Text: For a long time he had wished to explore the beautiful Land of Oz in which they lived.
-
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/1284_1180_000006_000002.wav" controls preload></audio> | <audio src="wavs/en/bvae/1284_1180_000006_000002.wav" controls preload></audio> | <audio src="wavs/en/vara/1284_1180_000006_000002.wav" controls preload></audio> |
-| --- | --- | --- |
-
-
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_4_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_4_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_4_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_4_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_4_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_4_W4G1.wav" controls preload></audio> |
+| --- | --- |
