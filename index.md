@@ -18,10 +18,15 @@ Audio samples and implementations are available at "scpark20.github.io/KimchiSpe
 
 Text: Once held by Hobson and Dewey, now carried by Mother Eddy and Brother Dowie.
 
-| **Tacotron 2** | **BVAE-TTS** | **VARA-TTS (ours)** |
-| :--- | :--- | :--- |
-| <audio src="wavs/en/taco2/121_121726_000025_000001.wav" controls preload></audio> | <audio src="wavs/en/bvae/121_121726_000025_000001.wav" controls preload></audio> | <audio src="wavs/en/vara/121_121726_000025_000001.wav" controls preload></audio> |
-| --- | --- | --- |
+| **GT** | **Tacoton2** | **FastSpeech** | **FastSpeech2** | **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| <audio src="wavs/GT/inference_0_GT.wav" controls preload></audio> 
+| <audio src="wavs/TACO2/inference_0_TACO2.wav" controls preload></audio> 
+| <audio src="wavs/FS/inference_0_FS.wav" controls preload></audio> |
+| <audio src="wavs/FS2/inference_0_FS2.wav" controls preload></audio> |
+| <audio src="wavs/KS/inference_0_S5G1.wav" controls preload></audio> |
+| <audio src="wavs/KW/inference_0_W4G1.wav" controls preload></audio> |
+| --- | --- | --- | --- | --- | --- |
 
 Text: If the child gives the effect another turn of the screw, what do you say to TWO children?
 
