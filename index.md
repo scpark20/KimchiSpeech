@@ -23,7 +23,7 @@ Audio samples and implementations are available at "scpark20.github.io/KimchiSpe
 
 ## English TTS
 
-Text1: The Middle Ages brought calligraphy to perfection, and it was natural therefore.
+Text 1: The Middle Ages brought calligraphy to perfection, and it was natural therefore.
 
 | **GT** | **Tacoton2** |
 | :--- | :--- |
@@ -36,7 +36,7 @@ Text1: The Middle Ages brought calligraphy to perfection, and it was natural the
 | <audio src="wavs/KS/inference_0_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_0_W4G1.wav" controls preload></audio> |
 | --- | --- |
 
-Text2: that the forms of printed letters should follow more or less closely those of the written character, and they followed them very closely.
+Text 2: that the forms of printed letters should follow more or less closely those of the written character, and they followed them very closely.
 
 | **GT** | **Tacoton2** |
 | :--- | :--- |
@@ -49,7 +49,7 @@ Text2: that the forms of printed letters should follow more or less closely thos
 | <audio src="wavs/KS/inference_1_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_1_W4G1.wav" controls preload></audio> |
 | --- | --- |
 
-Text3: especially as regards the lower case letters; and type very similar was used during the next fifteen or twenty years not only by Schoeffer,
+Text 3: especially as regards the lower case letters; and type very similar was used during the next fifteen or twenty years not only by Schoeffer,
 
 | **GT** | **Tacoton2** |
 | :--- | :--- |
@@ -62,7 +62,7 @@ Text3: especially as regards the lower case letters; and type very similar was u
 | <audio src="wavs/KS/inference_2_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_2_W4G1.wav" controls preload></audio> |
 | --- | --- |
 
-Text4: a very few years saw the birth of Roman character not only in Italy, but in Germany and France.
+Text 4: a very few years saw the birth of Roman character not only in Italy, but in Germany and France.
 
 | **GT** | **Tacoton2** |
 | :--- | :--- |
@@ -75,7 +75,7 @@ Text4: a very few years saw the birth of Roman character not only in Italy, but 
 | <audio src="wavs/KS/inference_3_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_3_W4G1.wav" controls preload></audio> |
 | --- | --- |
 
-Text5: and used an exceedingly beautiful type, which is indeed to look at a transition between Gothic and Roman,
+Text 5: and used an exceedingly beautiful type, which is indeed to look at a transition between Gothic and Roman,
 
 | **GT** | **Tacoton2** |
 | :--- | :--- |
