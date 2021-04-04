@@ -163,4 +163,17 @@ Text: The quick brown fox jumps over the lazy dog.
 | <audio src="wavs/fox1.3.wav" controls preload></audio> | <audio src="wavs/fox1.4.wav" controls preload></audio> |
 | --- | --- |
 
+## Samples from Truncated Normal Distribution
+
+Text: In probability and statistics, the truncated normal distribution is the probability distribution derived from that of a normally distributed random variable by bounding the random variable from either below or above. (from https://en.wikipedia.org/wiki/Truncated_normal_distribution)
+
+| **range (-3, 3)** | **range (-2, 2)** |
+| :--- | :--- |
+| <audio src="wavs/tn3.wav" controls preload></audio> | <audio src="wavs/tn2.wav" controls preload></audio> |
+| **range (-1, 1)** | **range (-0.01, 0.01)** | 
+| :--- | :--- |
+| <audio src="wavs/tn1.wav" controls preload></audio> | <audio src="wavs/tn0.01.wav" controls preload></audio> |
+| --- | --- |
+
+
 
