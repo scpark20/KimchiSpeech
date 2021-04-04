@@ -148,6 +148,9 @@ Text 10: they must be considered to have ended the age of fine printing in Italy
 | --- | --- |
 
 ## Speed Control
+
+Text: The quick brown fox jumps over the lazy dog.
+
 | **0.7x** | **0.8x** |
 | :--- | :--- |
 | <audio src="wavs/fox0.7.wav" controls preload></audio> | <audio src="wavs/fox0.8.wav" controls preload></audio> |
