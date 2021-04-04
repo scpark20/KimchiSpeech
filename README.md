@@ -8,16 +8,11 @@ In this study, we propose a text-to-speech (TTS) model, referred to as KimchiSpe
 
 # Requirement
 
-pytorch==1.8.1
-
-librosa==0.8.0
-
-numpy==1.19.1
-
-g2p-en==2.1.0
-
-matplotlib==3.1.0
-
+pytorch==1.8.1<br/>
+librosa==0.8.0<br/>
+numpy==1.19.1<br/>
+g2p-en==2.1.0<br/>
+matplotlib==3.1.0<br/>
 parallel-wavegan==0.4.8
 
 # Training
