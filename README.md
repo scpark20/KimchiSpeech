@@ -31,5 +31,5 @@ https://scpark20.github.io/KimchiSpeech/
 
 # Reference
 
-https://github.com/NVIDIA/tacotron2
+https://github.com/NVIDIA/tacotron2<br/>
 https://github.com/openai/vdvae
