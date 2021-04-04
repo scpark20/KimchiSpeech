@@ -15,7 +15,7 @@ speech can be flexibly controlled by soft attention using Gaussian distributions
 
 ![alt text](pics/kimchispeech.png)
 
-## English TTS
+## Text Examples
 
 Text 1: The Middle Ages brought calligraphy to perfection, and it was natural therefore.
 
