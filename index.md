@@ -146,3 +146,20 @@ Text 10: they must be considered to have ended the age of fine printing in Italy
 | :--- | :--- |
 | <audio src="wavs/KS/inference_9_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_9_W4G1.wav" controls preload></audio> |
 | --- | --- |
+
+## Speed Control
+| **0.7x** | **0.8x** |
+| :--- | :--- |
+| <audio src="wavs/fox0.7.wav" controls preload></audio> | <audio src="wavs/fox0.8.wav" controls preload></audio> |
+| **0.9x** | **1.0x** | 
+| :--- | :--- |
+| <audio src="wavs/fox0.9.wav" controls preload></audio> | <audio src="wavs/fox1.0.wav" controls preload></audio> |
+| **1.1x** | **1.2x** |
+| :--- | :--- |
+| <audio src="wavs/fox1.1.wav" controls preload></audio> | <audio src="wavs/fox1.2.wav" controls preload></audio> |
+| **1.3x** | **1.4x** |
+| :--- | :--- |
+| <audio src="wavs/fox1.3.wav" controls preload></audio> | <audio src="wavs/fox1.4.wav" controls preload></audio> |
+| --- | --- |
+
+
