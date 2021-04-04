@@ -1,7 +1,7 @@
-# <center> KimchiSpeech: Faster, Lighter and More Controllable TTS with Hierachical VAE and STT-aided Gaussian Attention </center>
-### Soochul Park<br/>
-### MODULABS, Seoul, Korea<br/>
-### scpark20@gmail.com
+## <center> KimchiSpeech: Faster, Lighter and More Controllable TTS with Hierachical VAE and STT-aided Gaussian Attention </center>
+#### Soochul Park<br/>
+#### MODULABS, Seoul, Korea<br/>
+#### scpark20@gmail.com
 
 ![alt text](pics/kimchispeech.png)
 
