@@ -11,7 +11,7 @@
 ## Abstract
 In this study, we propose a text-to-speech (TTS) model, referred to as KimchiSpeech, which has a hierarchical variational autoencoder (VAE) structure and uses a attention alignment obtained from a speech-to-text (STT) model. The hierarchical VAE structure contributes to the generation of high-quality outputs and a variety of prosody. Because the STT model operates independently of the TTS model, the attention alignment can be obtained robustly. Moreover, the speed of a generated
 speech can be flexibly controlled by soft attention using Gaussian distributions. Furthermore, we propose two configurations of the model, namely KimchiSpeech-W and KimchiSpeech-S. The former is a light version that has only 3.3M parameters for inference, whereas the latter is a fast version that produces outputs 470 times faster than real time on a GPU. The mean opinion score (MOS) results show that the outputs are of state-ofthe-art quality.
-<audio src="wavs/kimchi_abstract.wav" controls preload></audio>
+<audio src="wavs/kimchispeech_abstract.wav" controls preload></audio>
 
 ## English TTS
 
@@ -78,4 +78,69 @@ Text 5: and used an exceedingly beautiful type, which is indeed to look at a tra
 | **KimchiSpeech-W** | **KimchiSpeech-S** |
 | :--- | :--- |
 | <audio src="wavs/KS/inference_4_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_4_W4G1.wav" controls preload></audio> |
+| --- | --- |
+
+Text 6: John of Spires and his brother Vindelin, followed by Nicholas Jenson, began to print in that city,
+
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_5_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_5_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_5_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_5_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_5_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_5_W4G1.wav" controls preload></audio> |
+| --- | --- |
+
+Text 7: fourteen sixty nine, fourteen seventy;
+
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_6_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_6_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_6_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_6_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_6_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_6_W4G1.wav" controls preload></audio> |
+| --- | --- |
+
+Text 8: and though the famous family of Aldus restored its technical excellence, rejecting battered letters,
+
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_7_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_7_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_7_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_7_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_7_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_7_W4G1.wav" controls preload></audio> |
+| --- | --- |
+
+Text 9: yet their type is artistically on a much lower level than Jenson's, and in fact.
+
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_8_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_8_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_8_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_8_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_8_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_8_W4G1.wav" controls preload></audio> |
+| --- | --- |
+
+Text 10: they must be considered to have ended the age of fine printing in Italy.
+
+| **GT** | **Tacoton2** |
+| :--- | :--- |
+| <audio src="wavs/GT/inference_9_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_9_TACO2.wav" controls preload></audio> |
+| **FastSpeech** | **FastSpeech2** | 
+| :--- | :--- |
+| <audio src="wavs/FS/inference_9_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_9_FS2.wav" controls preload></audio> |
+| **KimchiSpeech-W** | **KimchiSpeech-S** |
+| :--- | :--- |
+| <audio src="wavs/KS/inference_9_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_9_W4G1.wav" controls preload></audio> |
 | --- | --- |
