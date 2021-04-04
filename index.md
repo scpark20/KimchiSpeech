@@ -6,14 +6,12 @@
 
 <center> scpark20@gmail.com </center>
 
-
+![alt text](pics/kimchispeech.png)
 
 ## Abstract
 In this study, we propose a text-to-speech (TTS) model, referred to as KimchiSpeech, which has a hierarchical variational autoencoder (VAE) structure and uses a attention alignment obtained from a speech-to-text (STT) model. The hierarchical VAE structure contributes to the generation of high-quality outputs and a variety of prosody. Because the STT model operates independently of the TTS model, the attention alignment can be obtained robustly. Moreover, the speed of a generated
 speech can be flexibly controlled by soft attention using Gaussian distributions. Furthermore, we propose two configurations of the model, namely KimchiSpeech-W and KimchiSpeech-S. The former is a light version that has only 3.3M parameters for inference, whereas the latter is a fast version that produces outputs 470 times faster than real time on a GPU. The mean opinion score (MOS) results show that the outputs are of state-of-the-art quality.
 <audio src="wavs/kimchispeech_abstract.wav" controls preload></audio>
-
-![alt text](pics/kimchispeech.png)
 
 ## Text Examples
 
@@ -146,3 +144,23 @@ Text 10: they must be considered to have ended the age of fine printing in Italy
 | :--- | :--- |
 | <audio src="wavs/KS/inference_9_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_9_W4G1.wav" controls preload></audio> |
 | --- | --- |
+
+## Speed Control
+
+Text: The quick brown fox jumps over the lazy dog.
+
+| **0.7x** | **0.8x** |
+| :--- | :--- |
+| <audio src="wavs/fox0.7.wav" controls preload></audio> | <audio src="wavs/fox0.8.wav" controls preload></audio> |
+| **0.9x** | **1.0x** | 
+| :--- | :--- |
+| <audio src="wavs/fox0.9.wav" controls preload></audio> | <audio src="wavs/fox1.0.wav" controls preload></audio> |
+| **1.1x** | **1.2x** |
+| :--- | :--- |
+| <audio src="wavs/fox1.1.wav" controls preload></audio> | <audio src="wavs/fox1.2.wav" controls preload></audio> |
+| **1.3x** | **1.4x** |
+| :--- | :--- |
+| <audio src="wavs/fox1.3.wav" controls preload></audio> | <audio src="wavs/fox1.4.wav" controls preload></audio> |
+| --- | --- |
+
+
