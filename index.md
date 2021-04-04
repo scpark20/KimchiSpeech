@@ -13,7 +13,9 @@ In this study, we propose a text-to-speech (TTS) model, referred to as KimchiSpe
 speech can be flexibly controlled by soft attention using Gaussian distributions. Furthermore, we propose two configurations of the model, namely KimchiSpeech-W and KimchiSpeech-S. The former is a light version that has only 3.3M parameters for inference, whereas the latter is a fast version that produces outputs 470 times faster than real time on a GPU. The mean opinion score (MOS) results show that the outputs are of state-of-the-art quality.
 <audio src="wavs/kimchispeech_abstract.wav" controls preload></audio>
 
-## English TTS
+![alt text](pics/kimchispeech.png)
+
+## Text Examples
 
 Text 1: The Middle Ages brought calligraphy to perfection, and it was natural therefore.
 
