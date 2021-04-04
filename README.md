@@ -25,6 +25,10 @@ parallel-wavegan==0.4.8
 
 run inference_W4G.ipynb or inference_S4G.ipynb
 
+# Audio Samples
+
+https://scpark20.github.io/KimchiSpeech/
+
 # Reference
 
 https://github.com/NVIDIA/tacotron2
