@@ -29,6 +29,9 @@ run inference_W4G.ipynb or inference_S4G.ipynb
 
 https://scpark20.github.io/KimchiSpeech/
 
+# Paper Link
+[KimchiSpeech: Faster, Lighter and More Controllable TTS with Hierachical VAE and STT-aided Gaussian Attention](kimchispeech.pdf)
+
 # Reference
 
 https://github.com/NVIDIA/tacotron2<br/>
